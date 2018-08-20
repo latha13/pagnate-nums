@@ -1,0 +1,108 @@
+
+
+  pagination-controls /deep/ .ngx-pagination .current {
+    color: white;
+    background-color:green;
+    cursor: default;
+    
+}
+
+pagination-controls /deep/ .ngx-pagination .pagination-next, 
+pagination-controls /deep/ .ngx-pagination .pagination-previous{
+    margin:5px 10px;
+    background-clip: content-box;
+    background-color:green;
+}
+pagination-controls /deep/ .ngx-pagination .pagination-previous a::before,
+pagination-controls /deep/ .ngx-pagination .pagination-previous.disabled::before { 
+  content: '';
+  display: inline-block;
+   margin-right: 0.5rem; }
+  pagination-controls /deep/ .ngx-pagination .pagination-next a::after,
+pagination-controls /deep/ .ngx-pagination .pagination-next.disabled::after {
+  content: '';
+  display: inline-block;
+  margin-left: 0.5rem; 
+  background-clip: content-box; 
+  outline-color: white; 
+}
+
+
+  
+  
+  /*pagination-controls /deep/  .ngx-pagination a {
+       display: block;
+    padding: 0.1875rem 0.625rem;
+    padding-left: 20px;;
+    border-radius: 0;
+    background-color: green;
+    background-clip: content-box;
+    outline-color: white;
+    
+}
+*/
+
+/* for scroll bar
+.fixed_header,td
+{
+    margin: 10px 0;
+    text-align:center;
+    padding: 2px 4px;
+    font: 15px Verdana;
+    background-color: black;
+
+}
+
+.fixed_header{
+    width: 400px;
+    
+     }
+th {
+    margin: 0px 0;
+    background-color: #424242;
+    font-weight:bold;
+    color: green;
+}
+
+tr {
+    color: white;
+
+}
+tbody div tr td{
+    padding:10px 30px;
+}
+tbody div{
+    overflow-y:scroll;
+    width: 400px;
+    height:300px;
+}
+*/
+table,td
+{
+    margin: 10px 0;
+    text-align:center;
+    padding: 2px 4px;
+    font: 15px Verdana;
+    background-color: black;
+
+}
+
+table{
+    width: 400px;
+     }
+th {
+    margin: 0px 0;
+    background-color: #424242;
+    font-weight:bold;
+    color: green;
+}
+tr {
+    color: white;
+
+}
+
+li {
+    margin-bottom: 5px;
+    padding: 15px;
+    background-clip: content-box; 
+  }
